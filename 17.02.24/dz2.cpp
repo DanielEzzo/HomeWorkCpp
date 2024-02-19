@@ -100,7 +100,7 @@ int main() {
         if ((oilAB > 300) || (oilBC > 300)) {
             cout << "plane can't fly"<<endl;
         }
-        cout << "in B" << oilBC << "for AC" << oilAB + oilBC;
+        cout << "in B " << oilBC << " for AC" << oilAB + oilBC;
     }
     // не до конца понятные условия. самолёт вылетает с полным баком или ровно до В?
 }
