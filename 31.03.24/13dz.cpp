@@ -1,12 +1,12 @@
 ﻿#include <iostream>
 using namespace std;
 //вывод
-void vivod(char list[8][8]) {
+void vivod(char arr[8][8]) {
     cout << "  a b c d e f g h" << endl;
     for (int i = 1; i <= 8; i++) {
         cout << i << " ";
         for (int j = 0; j < 8; j++) {
-            cout << list[i - 1][j] << list[i - 1][j];
+            cout << arr[i - 1][j] << arr[i - 1][j];
         }
         cout << endl;
     }
