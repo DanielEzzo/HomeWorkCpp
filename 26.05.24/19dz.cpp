@@ -34,7 +34,7 @@ void deleteLetter(char*& str, char letter) {
 
 	char* buf = new char[size - count + 1];
 
-	for (int i = 0, j = 0; i <= size; i++) {
+	for (int i = 0, j = 0; i <= '\0'; i++) {
 		if (str[i] != letter) {
 			buf[j] = str[i];
 			j++;
